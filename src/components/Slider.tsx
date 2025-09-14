@@ -182,7 +182,7 @@ export function Slider() {
           <Social ref={refSocial} />
         </div>
         <div className="absolute right-15 top-100 z-20">
-          {image.map((item, index) => (
+          {image.map((_, index) => (
             <label key={index}>
               <input
                 type="radio"
